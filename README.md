@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Smart School Permission System (SSPS) 🚀
 
-## Getting Started
+Status: Under Development – Coming Soon!
 
-First, run the development server:
+Smart School Permission System (SSPS) is a modern web application designed to help schools manage student permissions efficiently. This system provides features such as class-based permission tracking, real-time countdowns, notifications, and a dynamic admin dashboard — all with a clean, responsive UI.
 
-```bash
+Table of Contents
+
+Features
+
+Tech Stack
+
+Folder Structure
+
+Installation
+
+Usage
+
+Contributing
+
+License
+
+Contact
+
+Features ✨
+
+Dynamic Permission Management – Teachers can grant or revoke permissions per student.
+
+Countdown Timer System – Auto-reverts student status when the permission duration ends.
+
+Glassmorphism Design – Modern and visually appealing UI.
+
+Dark Mode Support – Toggle between light and dark themes.
+
+Admin Dashboard – Analytics, student management, and reports.
+
+Real-Time Updates – Interactive interface with live data feedback.
+
+⚠️ The application is still under development. Some features may be incomplete or unavailable.
+
+Tech Stack 🛠️
+
+Frontend: Next.js 15, React, Tailwind CSS, Framer Motion
+
+Backend: Node.js, Express.js
+
+Database: MySQL
+
+Hosting / Deployment: Vercel
+
+Folder Structure 📁
+root/
+ ├─ app/                  # Next.js App Router pages
+ │   └─ page.js
+ ├─ components/           # Reusable components (Navbar, Footer, HeroSection, Modals)
+ ├─ public/               # Static assets (images, icons)
+ ├─ styles/               # Global styles, Tailwind config
+ ├─ package.json
+ └─ jsconfig.json         # Alias configuration
+
+
+All components use the @/ alias for easier imports.
+
+Installation ⚡
+
+Clone the repository
+
+git clone https://github.com/niyonshutiisaac/ssps.git
+cd ssps
+
+
+Install dependencies
+
+npm install
+
+
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Open http://localhost:3000
+ to view the app in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Usage 💻
 
-## Learn More
+Navigate through the app using the Navbar.
 
-To learn more about Next.js, take a look at the following resources:
+The Coming Soon modal will appear on first load to notify users.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dark mode can be toggled in the navbar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Admin features and student permissions are still under development.
 
-## Deploy on Vercel
+Contributing 🤝
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome contributions!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fork the repository
+
+Create a new branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m "Add your feature")
+
+Push to the branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+License 📄
+
+This project is MIT licensed.
+
+Contact 📬
+
+Developer: Niyonshuti Isaac
+
+GitHub: github.com/niyonshutiisaac
+
+Email: your-email@example.com
+
+⚠️ Note: This project is still in development. Features, UI, and functionality are subject to change.
