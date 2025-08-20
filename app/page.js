@@ -1,7 +1,7 @@
-import Navbar from "../components/Navbar";
-import HeroSection from "../components/HeroSection";
-import ComingSoonModal from "../components/ComingSoonModal";
-import Footer from "../components/Footer";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ComingSoonModal from "@/components/ComingSoonModal";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
